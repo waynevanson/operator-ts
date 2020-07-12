@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "./dist",
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "target": "es6"
+  },
+  "include": ["src"],
+  "exclude": ["**/*.test.*"]
+}
